@@ -18,22 +18,23 @@ public class Problema04 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-         Scanner entrada = new Scanner (System.in);
-         entrada.useLocale(Locale.US);
-         int  n = 10 ;
-         int i = 1;
-         int j = 2;
-         
+        int n = 5;
 
-         for ( i = 1;  i <= n; i++){
-         }
-          for ( j = 2;  j <= i; j++){  
-          System.out.println("*");
-         }
-      
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
+        for (int i = n - 1; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
-    
-    
+}
+         
     
 
