@@ -14,7 +14,19 @@ public class Problema03 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Declaramos las variables
+        int fahrenheit = 20;
+        int celsius;
+
+        // iniciamos el ciclo for para que trabaje 20 comberciones 
+        for (int i = 1; i <= 20; i++) {
+            //formula para sacar el resultado para la comvercion 
+            celsius = (fahrenheit - 32) * 5 / 9;
+
+            System.out.printf("%d.Fahrenheit: %d Celsius: %d\n", i,fahrenheit, celsius);
+
+            // Incrementamos el valor de Fahrenheit
+            fahrenheit = fahrenheit + 4;
+        }
     }
-    
 }
