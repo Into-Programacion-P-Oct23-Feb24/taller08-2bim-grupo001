@@ -23,7 +23,8 @@ public class Problema03 {
             //formula para sacar el resultado para la comvercion 
             celsius = (fahrenheit - 32) * 5 / 9;
 
-            System.out.printf("%d. %d Grados Fahrenheit = %d Grados Celsius\n", i,fahrenheit, celsius);
+            System.out.printf(" %d Grados Fahrenheit = %d "
+                    + "Grados Celsius\n",fahrenheit, celsius);
 
             // Incrementamos el valor de Fahrenheit
             fahrenheit = fahrenheit + 4;

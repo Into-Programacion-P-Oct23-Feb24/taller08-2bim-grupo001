@@ -27,7 +27,7 @@ public class Problema01 {
         int edades = 0;
         double estatura;
         double estaturas = 0;
-        int jugador = 0;
+        int jugador ;
         String mensajeF = "";
         String tedades = "";
       
@@ -66,8 +66,10 @@ public class Problema01 {
             promedioestaturas = estaturas / i;
 
         }
-        System.out.printf("-----Listado de jugadores-----\n%s\nListado de edades: %s\n"
-                + "Promedio de edades:%.2f Promedio de estaturas: %.2f\n", mensajeF,tedades,
+        System.out.printf("-----Listado de jugadores-----\n%s\nListado de "
+                + "edades: %s\n"
+                + "Promedio de edades:%.2f Promedio de estaturas: %.2f\n", 
+                mensajeF,tedades,
                  promedioedades,
                 promedioestaturas);
         

@@ -4,9 +4,6 @@
  */
 package problema02;
 
-import java.util.Locale;
-import java.util.Scanner;
-
 /**
  *
  * @author LAB.ELECT
@@ -19,7 +16,8 @@ public class Problema02 {
     public static void main(String[] args) {
         // TODO code application logic here
         for(int contador = 30; contador>=10; contador -=1){
-            System.out.printf("%d-%d-%d-%d\n ", contador,contador*2,contador*3,contador*4);
+            System.out.printf("%d-%d-%d-%d\n ", contador,contador*2,
+                    contador*3,contador*4);
         }
 
 }
